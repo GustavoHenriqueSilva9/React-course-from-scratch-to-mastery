@@ -12,24 +12,26 @@ const ListRender = () => {
 
         setUsers(users.filter(user => (user.id !== randomNumber)))
 
-        console.log(randomNumber,users.id);
+        console.log(randomNumber, users.id);
     }
-console.log('users: ',users);
+    console.log('users: ', users);
 
     return (
         <div>
             <div>
                 <h3> List Rendering</h3>
-                {list.map((item,index) => (
+                {list.map((item, index) => (
                     <li key={index}> {item} </li>))}
             </div>
+            
             <div>
                 {users.map((item) => (
-                    <li key={item.id}> {item.name + ' ' + item.age} {console.log('teste',item.id)}</li>
+                    <li key={item.id}> {item.name + ' ' + item.age}</li>
                 ))}
             </div>
 
             <div>
+                <br/>
                 <button onClick={deleteRandom}> Delete random </button>
             </div>
         </div>
