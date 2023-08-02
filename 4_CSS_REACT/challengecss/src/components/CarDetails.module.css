@@ -1,0 +1,9 @@
+.list_item{
+    color: red;
+    font-weight: bolder;
+}
+
+.card{
+    border: 1px solid orange;
+    border-radius: 5px;
+  }
