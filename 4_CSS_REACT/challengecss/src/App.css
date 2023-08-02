@@ -9,7 +9,7 @@ body{
   font-size: 20px;
 }
 
-.cars-align{
+.cars-align {
   display: flex;
   justify-content: center;
 }
