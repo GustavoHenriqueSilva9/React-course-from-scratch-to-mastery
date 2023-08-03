@@ -1,6 +1,8 @@
 import './App.css';
 import CarDetails from './components/CarDetails';
 
+
+// App...
 function App() {
 
   const cars = [{ car: '320i', brand: 'BMW', potencia: '330CV' }, { car: 'Camaro', brand: 'VW', potencia: '400CV' }, { car: 'GOLF', brand: 'VW', potencia: '144CV' }]
