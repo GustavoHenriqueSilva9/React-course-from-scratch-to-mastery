@@ -16,5 +16,6 @@ const users = [
 const availableUsers = users.filter((user) => user.avaliable);
 const notAvailableUsers = users.filter((user) => !user.avaliable);
 
-console.log("availableUsers", availableUsers);
-console.log("notAvailableUsers", notAvailableUsers);
+// Template literals
+console.log(`availableUsers ${availableUsers}`);
+console.log(`notAvailableUsers ${notAvailableUsers}`);
